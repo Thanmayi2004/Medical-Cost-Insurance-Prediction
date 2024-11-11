@@ -22,18 +22,19 @@ Here, feature engineering was applied in the following ways:
 # Model Training and Evaluation
 
 Models Used:
-    -  Linear Regression 
-    -  Ridge Regression
-    -  Random Forest Regressor
-    -  XGBoost Regressor
+
+-  Linear Regression 
+-  Ridge Regression
+-  Random Forest Regressor
+-  XGBoost Regressor
     
 Evaluation Metrics Used:
-    - **Root Mean Squared Error (RMSE):** Measures average error, with larger errors having a bigger impact.
-    - **Mean Absolute Error (MAE):** Shows the average size of the errors, treating all errors equally.
-    - **Mean Absolute Percentage Error (MAPE):** Shows errors as a percentage, making it easy to see how big the errors are relative to the actual values.
+- **Root Mean Squared Error (RMSE):** Measures average error, with larger errors having a bigger impact.
+- **Mean Absolute Error (MAE):** Shows the average size of the errors, treating all errors equally.
+- **Mean Absolute Percentage Error (MAPE):** Shows errors as a percentage, making it easy to see how big the errors are relative to the actual values.
 
 
-  Each model’s performance was measured, with the Random Forest model achieving the lowest RMSE and MAE, making it the best-performing model for our data.
+Each model’s performance was measured, with the Random Forest model achieving the lowest RMSE and MAE, making it the best-performing model for our data.
 
 # Feature Importance Analysis
 In this analysis, we used a Random Forest model (Best-performing model) with 100 decision trees to identify the most influential features affecting the target variable. Random Forests are useful because they combine predictions from multiple independent trees, leading to more accurate and stable results. The "100 trees" in the model mean that we create 100 unique trees, each learning from a different subset of the data. 
