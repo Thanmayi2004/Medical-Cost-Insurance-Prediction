@@ -99,9 +99,10 @@ The categorization highlights that the majority of the residuals fall into the "
 
 # Conclusion
 This analysis has successfully demonstrated how various machine learning models can predict insurance costs based on demographic and health factors. 
+
 Key takeaways include:
-Best Model: Among the models evaluated, the Random Forest algorithm provided the most accurate predictions, achieving the lowest Root Mean Square Error (RMSE) and Mean Absolute Error (MAE). This highlights its effectiveness in capturing the complexities of the dataset.
-Key Predictors: Age, Body Mass Index (BMI), and smoking status emerged as the most significant predictors of insurance costs. These findings align with established domain knowledge, reinforcing the importance of these factors in assessing risk.
+- **Best Model:** Among the models evaluated, the Random Forest algorithm provided the most accurate predictions, achieving the lowest Root Mean Square Error (RMSE) and Mean Absolute Error (MAE). This highlights its effectiveness in capturing the complexities of the dataset.
+- **Key Predictors:** Age, Body Mass Index (BMI), and smoking status emerged as the most significant predictors of insurance costs. These findings align with established domain knowledge, reinforcing the importance of these factors in assessing risk.
 
 
 
